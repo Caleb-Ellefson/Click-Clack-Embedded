@@ -17,7 +17,7 @@ int time_index = 0;
 void move_once();
 void set_index();
 void calibration();
-//void check_calibration();
+void check_calibration();
 
 // -----StepperMotor Config----------
 void stepper_begin (int max_speed, int acceleration, int speed){
@@ -31,7 +31,7 @@ void move_once(){
     stepper.move(400);
     stepper.runToPosition();
     time_index++;
-    //check_calibration();
+    check_calibration();
     set_index();
 }
 
@@ -42,7 +42,7 @@ void calibration (){
         Serial.print("...");
         delay(15);
     }
-    Serial.println("Calibrating done");
+    Serial.print("Calibrating done");
     stepper.stop();
 }
 
@@ -52,10 +52,11 @@ void set_index(){
     }
 }
 
-// void check_calibration(){
-//     if (digitalRead((hall_sensor) == 0 && time_index =! 0)){
-//         Serial.print("Recalibration");
-//         calibration();
-//   }
-// }
+
+void check_calibration(){
+    if (digitalRead(hall_sensor) == 0 && time_index != 0){
+        Serial.println("Recalibration");
+        calibration();
+  }
+}
 
