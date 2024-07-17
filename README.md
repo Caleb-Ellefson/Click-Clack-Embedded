@@ -31,21 +31,21 @@
 <br />
 <div align="center">
   <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"
-    <img src="client/src/assets/images/Both.png" alt="Logo" width="80" height="80">
+    <img src="src/assets/main.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Split-Flap Clock</h3>
 
   <p align="center">
-    Full Stack Embedded project using React C++ and NodeJS
+    Full Stack Embedded project using React, C++, and NodeJS
     <br />
     <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/Caleb-Ellefson/StratRoulette/issues">Report Bug</a>
+    <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Caleb-Ellefson/StratRoulette/issues">Request Feature</a>
+    <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded/issues">Request Feature</a>
   </p>
 </div>
 
@@ -84,6 +84,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+<a> This is about the project.....</a>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -95,22 +97,6 @@
 * [![Node.js][node.js]][node-url]
 * [![Express.js][express.js]][express-url]
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Extended profile page,
-  -  [ ] allow users to customize their profle with a profile picture
-  -  [ ] tell a little about themselves and with a header to their profile.
-- [ ] Adding more custom types of strats that include short videos, gif, drawings ect.
-- [ ] Groups
-    - [ ] Create a group of friends that can party up and all have the same strats pop up.
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
