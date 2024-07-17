@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align=center>
- ![til](./src/assets/video1.gif)
+      ![Clock in action](./src/assets/video1.gif)
 </p>
 
 Split-Flap Clock Project Overview
