@@ -78,15 +78,19 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p align=center>
-      ![Clock in action](./src/assets/video1.gif)
-</p>
+<div align="center">
+      
+![Clock in action](./src/assets/video1.gif)
+</div>
 
-Split-Flap Clock Project Overview
+
+
+<h3><b>Split-Flap Clock Project Overview</b></h3>
 
 The overall project came together quite well. I created a split-flap clock using 3D printed parts, a skateboard truck bearing, a magnet, a hall sensor, and an RTC module to keep track of the time. Although there were a few minor complications with sending JSON data from the Node server to the ESP8266 via a GET request and creating a flag and interrupt to manage the loop, I was able to overcome these challenges.
 Project Details
-Front-End and Server Setup
+
+<h3><b>Front-End and Server Setup</b></h3>
 
 I built a simple front-end with React and a Node.js server. Using a library called concurrently, I hosted both the server and the front-end webpage simultaneously. The webpage includes a form that sends a POST request to the server, storing JSON data for functionalities like setting the time, creating an alarm, and turning the clock on and off. This data is stored in a variable on the server.
 ESP8266 Functionality
@@ -108,7 +112,7 @@ Coding Complications
         Problem: Since the setup function runs only once per power cycle and the loop function runs continuously, I needed a way to call a function only once within the loop.
         Solution: I created a boolean variable as a flag. By implementing simple logic, I ensured the function only ran when the flag was false. This involved creating an interrupt, a common technique in embedded systems, although it was new to me.
 
-Project Insights
+<h3><b>Project Insights</b></h3>
 
 Overall, this project was a great learning experience. I gained valuable skills in 3D printing, modeling, embedded software, and project management. While there were many things I could have done differently to save time, the process of troubleshooting and resolving issues with both code and hardware taught me a lot. I approached the project with the goal of challenging myself, and I definitely achieved that.
 Conclusion
