@@ -30,19 +30,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Caleb-Ellefson/StratRoulette"
+  <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"
     <img src="client/src/assets/images/Both.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Counter-Strike Strat Roulette</h3>
+<h3 align="center">Split-Flap Clock</h3>
 
   <p align="center">
-    Full Stack MERN project using CRUD
+    Full Stack Embedded project using React C++ and NodeJS
     <br />
-    <a href="https://github.com/Caleb-Ellefson/StratRoulette"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://counter-strike-roulette.onrender.com/">View Live Site</a>
     ·
     <a href="https://github.com/Caleb-Ellefson/StratRoulette/issues">Report Bug</a>
     ·
