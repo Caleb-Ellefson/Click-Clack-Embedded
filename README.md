@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align=center>
-   ![til] (https://github.com/Caleb-Ellefson/Click-Clack-Embedded/blob/master/src/assets/video1.gif)
+ ![til](./src/assets/video1.gif)
 </p>
 
 Split-Flap Clock Project Overview
