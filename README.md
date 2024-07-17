@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"
-    <img src="../src/assets/main.png" alt="Logo" width="80" height="80">
+    ![Image 1](./src/assets/main.png)
   </a>
 
 <h3 align="center">Split-Flap Clock</h3>
