@@ -30,9 +30,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"
-    ![Image 1](./src/assets/main.png)
-  </a>
+  <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded" </a>
+    <img src='./src/assets/main.png' >
+
 
 <h3 align="center">Split-Flap Clock</h3>
 
