@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"
-    <img src="./src/assets/main.png" alt="Logo" width="80" height="80">
+    <img src="../src/assets/main.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Split-Flap Clock</h3>
@@ -39,7 +39,6 @@
   <p align="center">
     Full Stack Embedded project using React, C++, and NodeJS
     <br />
-    <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
