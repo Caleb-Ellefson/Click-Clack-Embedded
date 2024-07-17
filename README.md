@@ -30,11 +30,11 @@
 <br />
 <div align="center">
   <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded" </a>
-    <img src='./src/assets/main.png' >
 
 
-<h3 align="center">Split-Flap Clock</h3>
 
+<h1 align="center">Split-Flap Clock</h3>
+      <img src='./src/assets/main.png' >
   <p align="center">
     Full Stack Embedded project using React, C++, and NodeJS
     <br />
@@ -79,13 +79,48 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<p align=center>
+  <img src='./src/assets/IMG_8505.JPG' height=500px>
+</p>
 
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://github.com/Caleb-Ellefson/Click-Clack-Embedded/blob/main/src/assets/Video1.mp4)
-<a> This is about the project.....</a>
+Split-Flap Clock Project Overview
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The overall project came together quite well. I created a split-flap clock using 3D printed parts, a skateboard truck bearing, a magnet, a hall sensor, and an RTC module to keep track of the time. Although there were a few minor complications with sending JSON data from the Node server to the ESP8266 via a GET request and creating a flag and interrupt to manage the loop, I was able to overcome these challenges.
+Project Details
+Front-End and Server Setup
 
+I built a simple front-end with React and a Node.js server. Using a library called concurrently, I hosted both the server and the front-end webpage simultaneously. The webpage includes a form that sends a POST request to the server, storing JSON data for functionalities like setting the time, creating an alarm, and turning the clock on and off. This data is stored in a variable on the server.
+ESP8266 Functionality
 
+Every 5 seconds, the ESP8266 sends a GET request to the server to retrieve this data. The ESP8266 operates using two main functions: setup and loop.
+Setup Function
+
+The setup function connects the ESP8266 to WiFi and configures the speed and acceleration of the stepper motors. It also calls stepper_begin(), which in turn calls calibration(). The calibration function uses a hall sensor, which detects polarity and outputs a boolean value. By gluing a magnet to the main crank gear, the sensor can measure full revolutions of the clock or gears, ensuring a 1:1 gear ratio.
+Loop Function
+
+The loop function runs continuously, managing the clock's operation based on the data received from the server.
+Coding Complications
+
+    ESP8266 GET Request Issue:
+        Problem: The ESP8266 could not make a GET request directly to the server via localhost (e.g., https://localhost/api:5100). Although the request worked using Thunder Client (a CRUD VSCode extension), the ESP8266 returned a -1 HTTP error code.
+        Solution: I used the ifconfig command on my Linux Mint machine to find the IPv6 address and used that as the server address for the request. This issue was likely due to security settings on the school WiFi, which kept certain ports closed.
+
+    Creating a Flag and Interrupt:
+        Problem: Since the setup function runs only once per power cycle and the loop function runs continuously, I needed a way to call a function only once within the loop.
+        Solution: I created a boolean variable as a flag. By implementing simple logic, I ensured the function only ran when the flag was false. This involved creating an interrupt, a common technique in embedded systems, although it was new to me.
+
+Project Insights
+
+Overall, this project was a great learning experience. I gained valuable skills in 3D printing, modeling, embedded software, and project management. While there were many things I could have done differently to save time, the process of troubleshooting and resolving issues with both code and hardware taught me a lot. I approached the project with the goal of challenging myself, and I definitely achieved that.
+Conclusion
+
+This project taught me the importance of perseverance and problem-solving in both software and hardware contexts. I’ve attached some pictures of the assembled 3D model I created using AutoFusion 360 for your reference.
+
+<div width= 100%>
+  <img src='./src/assets/back.png' alt="Back view of the clock" style="width: 300px; display: inline-block; margin-right: 10px;">
+  <img src='./src/assets/main.png' alt="Main view of the clock" style="width: 300px; display: inline-block; margin-right: 10px;">
+  <img src='./src/assets/side.png' alt="Side view of the clock" style="width: 300px; display: inline-block;">
+</div>
 
 ### Built With
 
