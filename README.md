@@ -81,8 +81,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://github.com/Caleb-Ellefson/Click-Clack-Embedded/blob/main/src/assets/Video1.mp4)
 <a> This is about the project.....</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
