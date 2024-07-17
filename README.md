@@ -29,7 +29,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Caleb-Ellefson/Click-Clack-Embedded" </a>
 
 
 
@@ -80,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p align=center>
-  <img src='./src/assets/IMG_8505.JPG' height=500px>
+   ![til] (https://github.com/Caleb-Ellefson/Click-Clack-Embedded/blob/master/src/assets/video1.gif)
 </p>
 
 Split-Flap Clock Project Overview
