@@ -22,7 +22,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -91,7 +90,7 @@
 ### Built With
 
 * [![React][React.js]][React-url]
-* [![MongoDB][mongo.js]][mongo-url]
+* [![C++][c++]][C++-url]
 * [![Node.js][node.js]][node-url]
 * [![Express.js][express.js]][express-url]
 
@@ -116,21 +115,10 @@ Don't forget to give the project a star! Thanks again!
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- CONTACT -->
 ## Contact
 
 Caleb Ellefson - calebroger@gmail.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +127,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [John Smilga](https://github.com/john-smilga/mern-jobify-v2)
+* [Random Nerd tutorials](https://randomnerdtutorials.com/esp8266-nodemcu-http-get-post-arduino/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,21 +136,23 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Caleb-Ellefson/Click-Clack-Embedded.svg?style=for-the-badge
+[contributors-url]: https://github.com/Caleb-Ellefson/Click-Clack-Embedded/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Caleb-Ellefson/Click-Clack-Embedded.svg?style=for-the-badge
+[forks-url]: https://github.com/Caleb-Ellefson/Click-Clack-Embedded/network/members
+[stars-shield]: https://img.shields.io/github/stars/Caleb-Ellefson/Click-Clack-Embedded.svg?style=for-the-badge
 [stars-url]: https://github.com/Caleb-Ellefson/StratRoulette
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Caleb-Ellefson/Click-Clack-Embedded.svg?style=for-the-badge
 [issues-url]: https://github.com/Caleb-Ellefson/StratRoulette/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[license-shield]: https://img.shields.io/github/license/Caleb-Ellefson/Click-Clack-Embedded.svg?style=for-the-badge
+[license-url]: https://github.com/Caleb-Ellefson/Click-Clack-Embedded/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/caleb-ellefson/
 [product-screenshot]: client/src/assets/images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
+[C++]:https://img.shields.io/badge/-C++-blue?logo=cplusplus
+[C++-url]:https://learn.microsoft.com/en-us/cpp/?view=msvc-170
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
