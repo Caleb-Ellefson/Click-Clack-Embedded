@@ -119,10 +119,10 @@ Conclusion
 
 This project taught me the importance of perseverance and problem-solving in both software and hardware contexts. I’ve attached some pictures of the assembled 3D model I created using AutoFusion 360 for your reference.
 
-<div width= 100%>
-  <img src='./src/assets/back.png' alt="Back view of the clock" style="width: 300px; display: inline-block; margin-right: 10px;">
-  <img src='./src/assets/main.png' alt="Main view of the clock" style="width: 300px; display: inline-block; margin-right: 10px;">
-  <img src='./src/assets/side.png' alt="Side view of the clock" style="width: 300px; display: inline-block;">
+<div align="center">
+  <img src='./src/assets/back.png' alt="Back view of the clock" style="width: 30%; display: inline-block; margin-right: 10px;">
+  <img src='./src/assets/main.png' alt="Main view of the clock" style="width: 30%; display: inline-block; margin-right: 10px;">
+  <img src='./src/assets/side.png' alt="Side view of the clock" style="width: 30%; display: inline-block;">
 </div>
 
 ### Built With
