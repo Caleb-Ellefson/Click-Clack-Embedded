@@ -94,13 +94,11 @@ The overall project came together quite well. I created a split-flap clock using
 I built a simple front-end with React and a Node.js server. Using a library called concurrently, I hosted both the server and the front-end webpage simultaneously. The webpage includes a form that sends a POST request to the server, storing JSON data for functionalities like setting the time, creating an alarm, and turning the clock on and off. This data is stored in a variable on the server.
 ESP8266 Functionality
 
-Every 5 seconds, the ESP8266 sends a GET request to the server to retrieve this data. The ESP8266 operates using two main functions: setup and loop.
-Setup Function
+The ESP8266 sends a GET request to the server on a loop to retrieve data stored in the server. If the data has changed then ESP8266 updates to the data accordingly. The ESP8266 operates using two main functions: setup and loop. 
 
-The setup function connects the ESP8266 to WiFi and configures the speed and acceleration of the stepper motors. It also calls stepper_begin(), which in turn calls calibration(). The calibration function uses a hall sensor, which detects polarity and outputs a boolean value. By gluing a magnet to the main crank gear, the sensor can measure full revolutions of the clock or gears, ensuring a 1:1 gear ratio.
-Loop Function
+The setup function connects the ESP8266 to WiFi and configures the speed and acceleration of the stepper motors. It also calls stepper_begin(), which in turn recursively calls calibration(). The calibration function uses a hall sensor, which detects the postion on the clock. By gluing a magnet to the main crank gear, the sensor can measure full revolutions of the clock or gears, ensuring a 1:1 gear ratio. The loop function runs continuously, managing the clock's operation based on the data received from the server.
 
-The loop function runs continuously, managing the clock's operation based on the data received from the server.
+
 Coding Complications
 
     ESP8266 GET Request Issue:
