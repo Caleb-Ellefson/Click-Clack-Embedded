@@ -87,8 +87,7 @@
 
 <h3><b>Split-Flap Clock Project Overview</b></h3>
 
-The overall project came together quite well. I created a split-flap clock using 3D printed parts, a skateboard truck bearing, a magnet, a hall sensor, and an RTC module to keep track of the time. Although there were a few minor complications with sending JSON data from the Node server to the ESP8266 via a GET request and creating a flag and interrupt to manage the loop, I was able to overcome these challenges.
-Project Details
+The overall project came together quite well. I created a split-flap clock using 3D printed parts, a skateboard truck bearing, a magnet, a hall sensor, and an RTC module to keep track of the time. Although there were a few minor complications with sending JSON data from the Node server to the ESP8266 via a GET request and creating a flag and interrupt to manage the loop, I was able to create this product.
 
 <h3><b>Front-End and Server Setup</b></h3>
 
